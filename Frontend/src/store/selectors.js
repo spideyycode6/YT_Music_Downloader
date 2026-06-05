@@ -1,0 +1,13 @@
+export const selectAccessToken = (state) => state.auth.accessToken
+export const selectUser = (state) => state.auth.user
+export const selectIsAuthenticated = (state) => state.auth.isAuthenticated
+export const selectIsInitialized = (state) => state.auth.isInitialized
+export const selectUrlInput = (state) => state.download.urlInput
+export const selectPhase = (state) => state.download.phase
+export const selectJobId = (state) => state.download.jobId
+export const selectResult = (state) => state.download.result
+export const selectProgress = (state) => state.download.progress
+export const selectError = (state) => state.download.error
+export const selectPollingActive = (state) => state.download.pollingActive
+export const selectIsCacheHit = (state) => state.download.isCacheHit
+export const selectTheme = (state) => state.ui.theme
